@@ -1,0 +1,10 @@
+{
+  "name": "DotEnv",
+  "description": "A design system for enterprise-level products. Create an efficient and enjoyable work experience.",
+  "homepage": "https: //ant.design/docs/react/introduce",
+  "package": {
+    "dependencies": {
+      "dotenv": "^16.0.3"
+    }
+  }
+}

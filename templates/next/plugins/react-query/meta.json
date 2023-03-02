@@ -1,0 +1,10 @@
+{
+  "name": "React Query",
+  "description": "A design system for enterprise-level products. Create an efficient and enjoyable work experience.",
+  "homepage": "https: //ant.design/docs/react/introduce",
+  "package": {
+    "dependencies": {
+      "react-query": "^4.1.2"
+    }
+  }
+}
