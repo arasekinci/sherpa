@@ -10,7 +10,8 @@
     "build:watch": "yarn build --watch",
     "build": "NODE_ENV=production tsc",
     "test": "NODE_ENV=test ts-node ./src/index.ts",
-    "dev": "NODE_ENV=development ts-node ./src/index.ts"
+    "dev": "NODE_ENV=development ts-node ./src/index.ts",
+    "postinstall": "yarn husky install"
   },
   "dependencies": {
     "chalk": "^4.1.2",
