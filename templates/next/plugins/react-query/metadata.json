@@ -1,10 +1,11 @@
 {
-  "name": "DotEnv",
+  "name": "React Query",
   "description": "A design system for enterprise-level products. Create an efficient and enjoyable work experience.",
-  "homepage": "https: //ant.design/docs/react/introduce",
+  "website": "https://react-query-v3.tanstack.com",
+  "repository": "https://github.com/TanStack/query",
   "package": {
     "dependencies": {
-      "dotenv": "^16.0.3"
+      "react-query": "^3.39.3"
     }
   }
 }

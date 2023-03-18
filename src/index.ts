@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-import init from './bin/init'
+import env from './env'
+import program from './program'
 
 const currentNodeVersion = process.versions.node
 const semver = currentNodeVersion.split('.')
@@ -17,4 +18,5 @@ if (parseInt(major) < 14) {
   process.exit(1)
 }
 
-init()
+env()
+program()

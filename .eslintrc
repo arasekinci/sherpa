@@ -1,25 +1,15 @@
-{
-  "root": true,
-  "parser": "@typescript-eslint/parser",
-  "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
-  ],
-  "plugins": [
-    "@typescript-eslint"
-  ],
-  "overrides": [
-    {
-      "env": {
-        "jest": true
-      },
-      "extends": [
-        "plugin:jest/recommended"
-      ],
-      "files": [
-        "**/*.test.ts"
-      ]
-    }
-  ]
-}
+root: true
+parser: "@typescript-eslint/parser"
+extends:
+  - eslint:recommended
+  - plugin:@typescript-eslint/recommended
+  - plugin:prettier/recommended
+plugins:
+  - "@typescript-eslint"
+overrides:
+  - env:
+      jest: true
+    extends:
+      - plugin:jest/recommended
+    files:
+      - "**/*.test.ts"

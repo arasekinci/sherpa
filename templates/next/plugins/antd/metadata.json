@@ -1,0 +1,20 @@
+{
+  "name": "Ant Design",
+  "description": "An enterprise-class UI design language and React UI library.",
+  "website": "https://ant.design",
+  "repository": "https://github.com/ant-design/ant-design",
+  "extends": [
+    {
+      "name": "src/pages/_app.tsx",
+      "modules": [
+        "import 'antd/dist/reset.css'"
+      ]
+    }
+  ],
+  "package": {
+    "dependencies": {
+      "@ant-design/icons": "^5.0.1",
+      "antd": "^5.3.1"
+    }
+  }
+}

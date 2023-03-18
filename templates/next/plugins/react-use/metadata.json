@@ -1,10 +1,11 @@
 {
-  "name": "Axios",
+  "name": "React Use",
   "description": "A design system for enterprise-level products. Create an efficient and enjoyable work experience.",
-  "homepage": "https: //ant.design/docs/react/introduce",
+  "website": "https://streamich.github.io/react-use",
+  "repository": "https://github.com/streamich/react-use",
   "package": {
     "dependencies": {
-      "react-use": "^4.1.2"
+      "react-use": "^17.4.0"
     }
   }
 }

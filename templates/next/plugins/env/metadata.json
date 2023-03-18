@@ -1,10 +1,11 @@
 {
-  "name": "React Query",
+  "name": "DotEnv",
   "description": "A design system for enterprise-level products. Create an efficient and enjoyable work experience.",
-  "homepage": "https: //ant.design/docs/react/introduce",
+  "website": "https://www.dotenv.org",
+  "repository": "https://github.com/motdotla/dotenv",
   "package": {
     "dependencies": {
-      "react-query": "^4.1.2"
+      "dotenv": "^16.0.3"
     }
   }
 }

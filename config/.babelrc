@@ -1,6 +1,5 @@
-{
-  "presets": [
-    "@babel/preset-env",
-    "@babel/preset-typescript"
-  ]
-}
+# See https://babeljs.io/docs/options for more information on settings.
+
+presets:
+  - "@babel/preset-env"
+  - "@babel/preset-typescript"

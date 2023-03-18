@@ -1,0 +1,14 @@
+{
+  "name": "Material UI",
+  "description": "MUI Core: Ready-to-use foundational React components, free forever. It includes Material UI, which implements Google's Material Design.",
+  "website": "https://mui.com",
+  "repository": "https://github.com/mui/material-ui",
+  "package": {
+    "dependencies": {
+      "@emotion/react": "^11.10.6",
+      "@emotion/styled": "^11.10.6",
+      "@mui/icons-material": "^5.11.11",
+      "@mui/material": "^5.11.13"
+    }
+  }
+}
